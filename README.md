@@ -1,4 +1,4 @@
-<h1 align = "center"> 100 Days of DSA With Java </h1>
+<h1 align = "center"> 6 Months of DSA With Java </h1>
 
 - Array
 - Matrix/Grid
