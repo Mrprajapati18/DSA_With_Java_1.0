@@ -1,12 +1,10 @@
 import java.util.Scanner;
 
-public class Demo {
+public class InsertionAndDeletion {
   public static void display(int[] arr, int N) {
     for(int i = 0; i < N; i++) {
-      System.out.println(arr[i] + " ");
-      // System.out.println("");
-    }
-    
+      System.out.print(arr[i] + " ");
+    }    
   }
  public static void main(String[] args) {
   
@@ -21,14 +19,18 @@ public class Demo {
     arr[i] = sc.nextInt();
    }
    
+   // Deletion from the end
+   if(N >= 1) {
+    arr[N - 1] = 0;
+    N--;
+   }
+  //  Insertion 15 from the end
+   if(N < 100) {
+    arr[N] = 15;
+    N++;
+   }
    // Create a function for avoiding repeating the code
-   
    display(arr, N);
-   // Insertion
-
-   // Deletion
-   // Insertion
-   // Deletion
    // close the Scanner
    sc.close();
  }
